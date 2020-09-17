@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calc(a, b){
+            let sum1 = a+b;
+            sum2 = a+b;
+            return sum1;
+        }
+
+        console.log(calc(20, 30));
+
+        var calc1 = function(a, b){
+            return a+ b;
+        }
+
+        function calc2(func){
+            console.log(func(20, 30));
+        }
+
+        console.log(calc1(20,30));
+        calc2(calc1);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
